@@ -1,0 +1,98 @@
+.profile {
+    padding: 16px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .profile h2 {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+  
+  /* Slider container styles */
+  .slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .profile-trips-wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .profile-trips {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Profile card styling */
+  .profile-trip-card {
+    min-width: 500px;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex-direction: row;
+    padding: 16px;
+    transition: transform 0.2s;
+  }
+  
+  .profile-trip-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .trip-details {
+    flex: 1;
+    padding-right: 16px;
+  }
+  
+  .trip-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .profile-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .profile-trip-image {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Slider button styling */
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .slider-btn.left {
+    left: 10px;
+  }
+  
+  .slider-btn.right {
+    right: 10px;
+  }
+  
+  .slider-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
